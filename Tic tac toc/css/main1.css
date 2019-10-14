@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;  
+    /* font-family: ;  but the font i want  */
+    user-select: none;
+} 
+html {
+
+    background-image:url("file:///Users/macbook/Desktop/Tic%20tac%20toc/background.jpg");
+    background-size: 100%;
+    
+}
+
+
+body {
+
+
+
+    background-image: url("file:///Users/macbook/Desktop/Tic%20tac%20toc/WP-logo-xo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    /* background-color: rgba(24, 27, 32, 0.671); */
+    width: 70px;
+    height: 5px;
+    margin: 10% auto;
+    margin-bottom: 7%;
+    text-align: center;
+    padding: 18%;
+}
+div.fram{
+   
+    justify-content: center; 
+      width: 183.19px;
+     overflow: hidden; 
+     margin: 0 auto ;
+
+
+     /* -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+     -webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+     box-shadow:inset 0px 39px 0px -24px #e67a73;
+     background-color:#e4685d;
+     -moz-border-radius:4px;
+     -webkit-border-radius:4px;
+     border-radius:4px;
+     border:1px solid #ffffff;
+     display:inline-block;
+     cursor:pointer;
+     color:#ffffff;
+     font-family:Arial;
+     font-size:15px;
+     padding:6px 15px;
+     text-decoration:none;
+     text-shadow:0px 1px 0px #b23e35; */
+
+
+
+
+}
+input {
+
+   display: inline;
+  
+}
+button {
+    -moz-box-shadow:inset 0px 39px 0px -24px #e67a73;
+    -webkit-box-shadow:inset 0px 39px 0px -24px #e67a73;
+    box-shadow:inset 0px 39px 0px -24px rgb(156, 8, 8);
+    background-color:#e4685d;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid black;
+    display:inline-block;
+    cursor:pointer;
+    padding: 2px;
+    text-shadow:0px 1px 0px rgb(143, 10, 10);
+
+}
+.use1 {
+
+
+    margin: inherit;
+
+}
