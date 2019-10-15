@@ -1,0 +1,81 @@
+
+*{
+    margin: 0%;
+    padding: 0%;  
+    /* font-family: ;  but the font i want  */
+    user-select: none;
+} 
+
+/* @media screen and (max-width:800px) {
+    .left , .main, .right {width:100%;}
+  } */
+html { background-image: url("file:///Users/macbook/Desktop/Tic%20tac%20toc/background.jpg");
+    background-size: 1000px;
+    /* background-repeat: ; */
+
+}
+span {
+    font-size: 805%;
+    padding-top: 200%;
+    color: white;
+    text-align: center;
+    font-family: 'Zhi Mang Xing';
+}
+
+body {
+display: flex;
+background-color: rgba(24, 27, 32, 0.671);
+width: 70%;
+height: 70%;
+margin: 10% auto;
+margin-top: 5%;
+margin-bottom: 7%;
+text-align: center;
+padding: 2%;
+
+}
+h1{
+    font-size: 600%;
+    padding-top: 3%;
+    color: white;
+    /* border: 4% solid rgba(255, 255, 255, 0); */
+    height: 14%;
+    font-family: 'Zhi Mang Xing';
+   
+}
+
+/* //to target all id inside parents ^ */
+div[id^="row"] div {
+
+width: 200px;
+height: 200px;
+border: 2px solid  black;
+border-radius: 8%;
+
+float: left;
+
+}
+/* to target first chiled  */
+div[id^="row"] div:first-child{
+
+    border-left: none; 
+    /* to remove line  */
+    /* for mext version i hv to do this agine rememeber that  */
+}
+div[id^="row"] div:last-child{
+    border-right: none; 
+}
+ div[id="row1"] div {border-top: none;} 
+div[id="row4"] div {border-bottom: none;}
+
+div[id^="row"] {
+    clear : float ;
+    width: 3800%;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+div.fram{
+    width: 3800%;
+     overflow: hidden; 
+    margin: 0 auto ;
+}
